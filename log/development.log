@@ -186,3 +186,30 @@ Started GET "/about" for 130.234.229.112 at 2016-06-08 10:25:22 +0000
 Processing by PagesController#about as HTML
   Rendered pages/about.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 130.234.229.112 at 2016-06-08 11:14:19 +0000
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2201ms (Views: 2185.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-08 11:14:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-08 11:14:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-08 11:14:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-08 11:14:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-08 11:14:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-08 11:14:23 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-08 11:14:23 +0000
