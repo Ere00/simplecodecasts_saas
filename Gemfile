@@ -18,6 +18,8 @@ end
 # Bootstrap sass
 gem 'bootstrap-sass', '3.3.1'
 
+# Font Awesome
+gem 'font-awesome-sass', '4.2.0'
 
 
 # Use SCSS for stylesheets
