@@ -441,3 +441,267 @@ Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-10 10:
 
 
 Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-10 10:52:12 +0000
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-10 11:09:29 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 330ms (Views: 328.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-10 11:09:31 +0000
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-10 11:11:30 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 277ms (Views: 276.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-10 11:11:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-10 11:11:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:31 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:31 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-10 11:11:32 +0000
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-10 11:13:01 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 246ms (Views: 244.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-10 11:13:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-10 11:13:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:03 +0000
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-10 11:13:34 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 292ms (Views: 291.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-10 11:13:35 +0000
