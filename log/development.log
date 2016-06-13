@@ -2033,3 +2033,430 @@ Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-13 10
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-13 10:56:48 +0000
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:00:33 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 347ms (Views: 346.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-13 11:00:34 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-13 11:00:35 +0000
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:03:18 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <div class="row">
+    2:     <%= form_for @contact do |f| %>
+    3:         <%= f.field :name %>
+    4:         <%= f.text_field :name %>
+    5:         
+  app/views/contacts/new.html.erb:2:in `_app_views_contacts_new_html_erb__3809487632427296392_31955060'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.0ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:05:15 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (28.0ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (undefined method `field' for #<ActionView::Helpers::FormBuilder:0x00000004c5c0e8>):
+    1: <div class="row">
+    2:     <%= form_for @contact do |f| %>
+    3:         <%= f.field :name %>
+    4:         <%= f.text_field :name %>
+    5:         
+    6:         <%= f.field :email %>
+  app/views/contacts/new.html.erb:3:in `block in _app_views_contacts_new_html_erb__3809487632427296392_31955060'
+  app/views/contacts/new.html.erb:2:in `_app_views_contacts_new_html_erb__3809487632427296392_31955060'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.2ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:05:46 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (71.7ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::Template::Error (undefined method `name' for #<Contact id: nil>):
+    1: <div class="row">
+    2:     <%= form_for @contact do |f| %>
+    3:         <%= f.label :name %>
+    4:         <%= f.text_field :name %>
+    5:         
+    6:         <%= f.label :email %>
+    7:         <%= f.email_field :email %>
+  app/views/contacts/new.html.erb:4:in `block in _app_views_contacts_new_html_erb__3809487632427296392_70159868194660'
+  app/views/contacts/new.html.erb:2:in `_app_views_contacts_new_html_erb__3809487632427296392_70159868194660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.2ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:09:01 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `name' for #<Contact id: nil>):
+    1: <div class="row">
+    2:     <%= form_for @contact do |f| %>
+    3:         <%= f.label :name %>
+    4:         <%= f.text_field :name %>
+    5:         
+    6:         <%= f.label :email %>
+    7:         <%= f.email_field :email %>
+  app/views/contacts/new.html.erb:4:in `block in _app_views_contacts_new_html_erb__3809487632427296392_70159868194660'
+  app/views/contacts/new.html.erb:2:in `_app_views_contacts_new_html_erb__3809487632427296392_70159868194660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.6ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:09:51 +0000
+Processing by ContactsController#new as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (uninitialized constant ContactsController::Contacts):
+  app/controllers/contacts_controller.rb:3:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (100.9ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:10:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (51.9ms)
+Completed 500 Internal Server Error in 94ms
+
+ActionView::Template::Error (undefined method `name' for #<Contact id: nil>):
+    1: <div class="row">
+    2:     <%= form_for @contact do |f| %>
+    3:         <%= f.label :name %>
+    4:         <%= f.text_field :name %>
+    5:         
+    6:         <%= f.label :email %>
+    7:         <%= f.email_field :email %>
+  app/views/contacts/new.html.erb:4:in `block in _app_views_contacts_new_html_erb__1212018436941906867_26478500'
+  app/views/contacts/new.html.erb:2:in `_app_views_contacts_new_html_erb__1212018436941906867_26478500'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateContacts (20160613100230)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "contacts"
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20160613100230'[0m
+  [1m[35m (14.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateContacts (20160613100230)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "contacts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "comments" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160613100230"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-13 11:15:52 +0000
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 321ms (Views: 320.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-13 11:15:53 +0000
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:15:58 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 262ms (Views: 258.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 130.234.229.112 at 2016-06-13 11:15:59 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-13 11:15:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-13 11:15:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:59 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-13 11:15:59 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-13 11:16:00 +0000
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-13 11:31:40 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 305ms (Views: 304.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-13 11:31:42 +0000
