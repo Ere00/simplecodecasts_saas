@@ -2460,3 +2460,276 @@ Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-13 11:31:41
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-13 11:31:42 +0000
+
+
+Started GET "/" for 66.102.9.121 at 2016-06-13 14:00:00 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 314ms (Views: 313.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-15 09:54:08 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 530ms (Views: 512.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:09 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-15 09:54:10 +0000
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-15 09:55:35 +0000
+Processing by ContactsController#new as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (uninitialized constant ContactsController::Contacts):
+  app/controllers/contacts_controller.rb:3:in `new'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (143.2ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-15 09:55:50 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (65.3ms)
+Completed 200 OK in 313ms (Views: 308.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-15 09:55:51 +0000
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-15 10:07:27 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 212ms (Views: 207.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/custom.css?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 130.234.229.112 at 2016-06-15 10:07:28 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff" for 130.234.229.112 at 2016-06-15 10:07:29 +0000
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-15 10:07:36 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 230ms (Views: 228.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 130.234.229.112 at 2016-06-15 10:07:39 +0000
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 213ms (Views: 212.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-15 10:07:40 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 196ms (Views: 195.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-15 10:07:42 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 180ms (Views: 179.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/new" for 130.234.229.112 at 2016-06-15 10:07:43 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 213ms (Views: 211.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 130.234.229.112 at 2016-06-15 10:07:45 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 249ms (Views: 248.1ms | ActiveRecord: 0.0ms)
