@@ -15,7 +15,7 @@ class ContactsController < ApplicationController
             body = params[:contact][:comments]
 
             # Välitä arvot mailerille ja lähetä email 
-            ContactMailer.contact_email(name, email, body).deliver
+            #ContactMailer.contact_email(name, email, body).deliver
             
             
             flash[:success] = "Message sent"
